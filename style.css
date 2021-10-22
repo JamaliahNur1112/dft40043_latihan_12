@@ -1,0 +1,19 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    color:blue;
+}
+h2{
+    color: blue;
+}
+p.warna {
+        background-color: cornflowerblue;
+}
+p ~ ul {
+    background:violet;
+}
+a[target] {
+    background-color: yellow;
+  }
