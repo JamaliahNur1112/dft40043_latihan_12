@@ -17,3 +17,39 @@ p ~ ul {
 a[target] {
     background-color: yellow;
   }
+  [title~=flowerswhitepink] {
+    border: 25px solid pink
+  }
+
+[title~=floweryellow] {
+    border: 25px solid yellow
+  }
+
+[title~=flowerpink] {
+    border: 25px solid whitesmoke
+  }
+
+  [lang|=us] {
+    background-color: rgb(14, 73, 41);
+  }
+
+div[class^="test"] {
+    background: #dd9c0e;
+  }
+
+a:active {
+    background-color: yellow;
+  }
+
+h3::after { 
+    content: " - Remember this";
+  }
+
+h4::first-letter {
+    font-size: 200%;
+    color: #07949e;
+  }
+
+input:focus {
+    background-color: yellow;
+  }
